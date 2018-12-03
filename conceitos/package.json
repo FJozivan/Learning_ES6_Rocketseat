@@ -1,0 +1,19 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "Projeto de Estudo ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  },
+  "author": "Francisco Jozivan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.6"
+  },
+  "devDependencies": {}
+}
